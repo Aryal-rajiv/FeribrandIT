@@ -1,8 +1,42 @@
 *{
-    margin:0;
-    padding:0;
+    margin:0%;
+    padding: 0;
+    font-family: 'Times New Roman';
+
 }
-p{
+body{ 
+    background-image: url("BerkshiresHotAirBalloonRide.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+ul{  
     color:red;
-    size:200px;
+    float: right; 
+    list-style-type: none;
 }
+ul li{
+    display:inline-block;
+     margin-top: 28px ;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(12, 19, 19);
+    padding: 5px 20px; 
+    background-color: bisque;
+    border: 1px solid rgb(236, 223, 223);
+    transition: 0.6s ease-in;
+    
+}
+ ul li a:hover{
+    background-color : white;
+    color:rgb(171, 41, 41);
+ }
+.title{
+    position:absolute;
+    top: 300px;
+    Left: 300px;
+    transform: translate(-50%,-50%);
+    size: 500px;
+}
+
