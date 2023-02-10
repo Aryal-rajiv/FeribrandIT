@@ -1,100 +1,146 @@
 *{
     margin:0%;
     padding: 0;
-    font-family: 'Times New Roman';
+    font-family:cursive;
+   
+}
+.nav-bar{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(110, 93, 93, 0.902);
+    padding: 10px;
 
 }
-body{ 
-    background-image: url("BerkshiresHotAirBalloonRide.jpg");
-    background-size: cover;
-    background-position: center;
-
+.nav-bar img{
+    background-position: left;
+    background-repeat: no-repeat;
+    /*width: 75px;*/
+   height: 65px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
 }
-ul{  
-    color:red;
-    float: right; 
+.nav-bar ul{  
+    color:rgb(18, 8, 8);
+    float: center; 
     list-style-type: none;
 }
-ul li{
+.nav-bar ul li{
     display:inline-block;
-     margin-top: 28px ;
-}
-ul li a{
-    text-decoration: none;
-    color:rgb(12, 19, 19);
-    padding: 5px 20px; 
-    background-color: bisque;
-    border: 1px solid rgb(236, 223, 223);
-    transition: 0.6s ease-in;
+    margin :15px;
     
+   
+    
+    
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:rgb(7, 10, 10);
+    padding: 5px 20px; 
+    background-color: rgb(246, 242, 236);
+    border: 1px solid rgb(27, 26, 26);
+    transition: 0.6s ease-in;    
 }
  ul li a:hover{
     background-color : white;
     color:rgb(171, 41, 41);
  }
-.title{
-    position:absolute;
-    top: 300px;
-    Left: 300px;
-    transform: translate(-50%,-50%);
-    size: 500px;
+.rightnav a.loginlink{
+    width: auto;
+    padding: 0 10px;
+    line-height: 50px;
+    color: black;
 }
-
-
-.nav-bar{
-    display: flex;
+/*.nav-bar ul li.active a{
+    color: #ccc;
+    font-weight: bold;
+}*/
+.background{
+    background: rgba(0, 0, 0,0) url("../priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.home{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
     position: relative;
-    width:100%;
-    margin-top:-20px;
-}
-
-.nav-bar.ul{
-    float: right;
-}
-
-
-.logo{
-    float:left;
-    height:15rem;
-    width:10rem;
-    padding:0 800px 0 0;
-    margin-top:-35px;
-}
-
-.nav_links li a{
-    float:right;  
-}
-
-
-
-/* .item-box img{
-    width:33%;
-    height:33%;
-    border-radius: 4px;
-    
-}
-
-.item2 img{
-    width:33%;
-    height:33%;
-    border-radius: 4px;
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 14rem;
     text-align: center;
-}
 
-.item3 img{
-    width:33%;
-    height:33%;
-    border-radius: 4px;
-    float: right;
+}
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+
+}
+.firstHalf{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+.secondHalf{
+    width: 30%;
+
+}
+.secondHalf img{
+    width: 40%;
+    padding: 4px;
+    border: 4px solid;
+    border-radius: 30cm;
+    display: block;
+    margin: auto;
     
 }
+.home h1{
+    font-size: 16px;
+    width: 30%;
+    color: rgb(16, 2, 2);
+    background-color: rgb(246, 242, 236);
+    padding:0 1rem;
+    text-shadow: 0,3rem,5rem,black;
+    text-transform: uppercase;
+    border-color: rgb(16, 21, 21);
+    margin: 2px;
 
-
-
-#items{
-    margin: auto;
 }
- */
+.home p{
+    font-size: 18px;
+    color: #201c1c;
+    background-color: rgb(246, 242, 236);
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+.home button{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(248, 233, 233);
+    background-color: rgb(246, 242, 236);
+    border:none;
+    padding: 10px 20px;
+    cursor:pointer;
+}
+.home button:hover{
+    background-color: rgb(247, 244, 240);
+}
 #items .item-box{
     width:300px;
     text-align: center;
