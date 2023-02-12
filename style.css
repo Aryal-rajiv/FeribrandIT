@@ -11,6 +11,10 @@
     justify-content: space-between;
     background-color:rgba(110, 93, 93, 0.902);
     padding: 10px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    
 
 }
 .nav-bar img{
@@ -54,12 +58,18 @@
     line-height: 50px;
     color: black;
 }
+
+.rightnav input {
+    background-image: url("assets/search_icon.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 /*.nav-bar ul li.active a{
     color: #ccc;
     font-weight: bold;
 }*/
 .background{
-    background: rgba(0, 0, 0,0) url("../priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg");
+    background: rgba(0, 0, 0,0) url("assets/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,14 +79,17 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: auto;
     z-index: 0;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
     display: block;
     padding-top: 2rem;
     padding-bottom: 14rem;
+    margin-top: 88px;
     text-align: center;
+    
+    
 
 }
 .box-main{
