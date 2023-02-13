@@ -109,6 +109,17 @@
     display: flex;
 
 }
+firsthalf a.discovermore{
+    padding: 40px;
+    margin: 2px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 2px;
+    cursor:pointer;
+    
+}
 .secondHalf{
     width: 30%;
 
